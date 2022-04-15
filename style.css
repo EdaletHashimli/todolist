@@ -1,0 +1,142 @@
+ body {
+ 	display: flex;
+ 	justify-content: center;
+ 	text-align: center;
+ 	margin-top: 10%;
+
+ }
+
+ .container {
+ 	border: 1px solid #c4c4c4;
+ 	width: 27%;
+ 	border-radius: 10px;
+ }
+
+ .color {
+ 	background: #ffdc40;
+ 	padding: 15px 0;
+ 	border: 1px solid #ffdc40;
+ 	border-top-left-radius: 10px;
+ 	border-top-right-radius: 10px
+ }
+
+ h1 {
+ 	font-family: "Poppins", sans-serif;
+ 	margin-top: 5%;
+ 	font-weight: 900;
+ 	font-size: 27px;
+ }
+
+
+ .icon {
+ 	display: flex;
+ 	justify-content: end;
+ 	margin-right: 7%;
+ 	margin-bottom: 2%;
+ 	padding: 10px 0;
+ }
+
+ .down {
+ 	display: none;
+ }
+
+ input {
+
+ 	border-radius: 10px;
+ 	border: 1px solid #c4c4c4;
+ 	padding: 10px 20px;
+ 	width: 70%;
+ }
+
+ .delete {
+ 	display: none;
+ }
+
+ ul {
+ 	border-radius: 10px;
+ 	border: 1px solid #c4c4c4;
+ 	margin-left: 9%;
+ 	margin-right: 9%;
+ 	padding: 10px 20px;
+ 	list-style-type: none;
+ 	text-align: start;
+ 	gap: 20px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+
+ 	flex-wrap: wrap;
+ }
+
+ li {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	word-break: break-all;
+ 	width: 100%;
+
+
+ }
+
+ .del:hover {
+
+ 	background-color: #833AE0;
+ 	border-radius: 50%;
+ }
+
+
+ .add {
+
+ 	padding-top: 3.7%;
+ 	padding-bottom: 3.7%;
+ 	padding-left: 7%;
+ 	margin-bottom: 5%;
+ 	margin-top: 5%;
+ 	width: 35%;
+ 	border: none;
+ 	border-radius: 20px;
+ 	background-color: #833AE0;
+ 	position: relative;
+ 	color: white;
+ 	font-size:auto;
+	 
+
+
+ }
+ .del {
+ 	width: 20px;
+ 	height: 20px;
+
+
+ }
+ #plus {
+ 	position: absolute;
+ 	left: -2.5px;
+ 	top: 0px;
+ 	height: 100%;
+ }
+
+
+
+
+
+ @media screen and (min-width: 400px) and (max-width: 750px) {
+ .container{
+	border: 1px solid #c4c4c4;
+ 	width: 40%;
+ 	border-radius: 10px;
+}
+
+  }
+
+  @media (max-width: 399px) {
+	.container{
+	   border: 1px solid #c4c4c4;
+		width: 70%;
+		border-radius: 10px;
+   }
+  
+	 }
+
+
+
+
